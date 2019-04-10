@@ -1,0 +1,33 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+
+img{
+    max-width: 100%;
+}
+normal{
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+
+*{
+box-sizing: border-box; 
+   
+}
+legend{
+  color:black;  
+    font-size: 1.4em;
+  font-weight: bold;
+    padding: 1.5px;
+}
+input:focus, textarea:focus{
+ overflow: inherit;
+    color: black;
+    width: auto;
+    height: auto;
+}

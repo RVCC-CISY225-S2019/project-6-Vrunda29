@@ -167,22 +167,31 @@
         <a href="#">Back to Top</a>
     </div>
     <hr class="mobile-first">
-    <!-- start of contact form -->
     <section id="contact" class="form-container">
-        <h1>Get in Touch</h1>
-        <br class="mobile-first"><br class="mobile-first">
-        <div>
-            <form>
+        <h1> Get in touch </h1>
+        <form method="post" action="https://formspree.io/pvrund29@gmail.com">
+            <fieldset>
+                <legend> Please Feel Free to Contact me anytime</legend>
+
+                <label for="email">Email</label>
+                <br>
+                <input id="email" type="email">
+                <br><br><br>
+                <label for="message">Message</label>
+                <br>
+                <textarea id="message" name="Message"></textarea>
+
+                <br><br>
                 <fieldset>
-                    <legend>&nbsp;&nbsp; F O R M &nbsp;G O E S &nbsp; H E R E&nbsp;&nbsp;</legend>
-                    <br class="mobile-first"><br class="mobile-first">
-                    <p>
-                        &nbsp;L E F T&nbsp;&nbsp;E M P T Y&nbsp;&nbsp;O N&nbsp;&nbsp;P U R P O S E&nbsp;
-                    </p>
-                    <br class="mobile-first"><br class="mobile-first">
+                    <legend><label id="yes_no_radio">I would like a reply</label></legend>
+                    <br><br><input type="radio" name="yes_no" checked>Yes
+                    <br><br><input type="radio" name="yes_no" checked>No
                 </fieldset>
-            </form>
-        </div>
+                <br>
+                <button type="submit">Send Test</button>
+
+            </fieldset>
+        </form>
     </section>
     <!-- end of contact form -->
     <!-- start of footer -->
